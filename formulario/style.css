@@ -23,6 +23,18 @@ form{
     width: 360px;
 }
 
+.cabecera{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.home{
+    font-size: 20px;
+}
+
 .input-gruop{
     display: flex;
     flex-direction: column;
@@ -56,15 +68,21 @@ input::placeholder, textarea::placeholder{
 .form-txt{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    flex-direction: column;
+}
+
+.form-txt div{
+    margin-bottom: 10px;
 }
 
 .form-txt a{
     color: white;
-    font-size: 12px;
     font-weight: 600;
     text-decoration: none;
+}
+
+.textfoot{
+    font-size: 13px;
 }
 
 .form-txt a:hover{
